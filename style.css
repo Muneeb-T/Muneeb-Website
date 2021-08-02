@@ -1,9 +1,12 @@
 
 html
 {   
+   scroll-behavior: smooth;
    
 }
-
+body{
+    overflow-x : hidden;
+}
 section:before {
     height: 5em;
     content: "";
