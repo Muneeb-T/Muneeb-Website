@@ -2,10 +2,12 @@
 html
 {   
    scroll-behavior: smooth;
-   
+   margin:0;
 }
 body{
-    overflow-x : hidden;
+    overflow-y: hidden;
+    width : 100%;
+    
 }
 section:before {
     height: 5em;
