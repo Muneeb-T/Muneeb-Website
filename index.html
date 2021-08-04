@@ -4,257 +4,208 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="icon" href="images/mnb.jpg" type="image/icon type">
-    <script src="https://kit.fontawesome.com/528c5e2363.js" crossorigin="anonymous"></script>
-    <title>MUNEEB T (Personal Website)</title>
+    <title>Personal Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="bg-white border-bottom fixed-top">
-   <div class="container">
-     
-    <nav class="navbar navbar-expand-md navbar-light">
-      <a class="navbar-brand ml-md-5 mr-5 p-2 text-danger" href="#">MUNEEB</a>
-      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link " href="#home">HOME <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#services">SERVICES</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#education">EDUCATION</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#contact">CONTACT ME</a>
-          </li>
-        </ul>
-      </div>
+    <!--Header Section-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top border-bottom">
+        <div class="container">
+            <a href="#home" class="navbar-brand">
+               <h3 class="text-blue fw-bold">MUNEEB T</span>    </h3> 
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu" aria-expanded="false" aria-label="Toggler navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#education" class="nav-link">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact Me</a>
+                    </li>
+                </ul>
+                <button class="btn btn-primary me-2">Sign Up</button>
+                <button class="btn btn-outline-primary">Login</button>
+            </div>
+        </div>
     </nav>
-  
-   </div> 
-  </header>
+    <!--Show case-->
+    <section id="home" class="bg-dark p-3">
+        <div class="container">
+            <h3 class="text-white display-5 head">Hey There, I am <span class="text-blue">MUNEEB</span></h3>
+            <div class="row flex-row-reverse">
+                <div class="col-sm-12 col-md-3 pt-md-0 pb-md-0 pt-3 pb-3">
+                    <div class="d-flex justify-content-lg-start justify-content-center">
+                        <img src="images/mnb.jpg" alt="image" class="img-fluid rounded photo">  
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-9">
+                    <p class="lead justify text-white">My ambition is to become a Full Stack Web Developer. Now I am a student of Web Development. So, I introduce Myself as 'Baby Developer'. As a biginner, I am very much confident that I will become a Professional Web Devolepor one day. My teachers and friends Supports me lot  and these supports are my strength. Thank you all for loving me.</p>
+                    <a class="btn btn-primary btn-lg" role="button" href="#contact">Contact Me</a>
+                </div>
+            </div>
+        </div>    
+    </section>
 
-  <section id="home">
-    <div class="container">
-      <div class="row align-items-center homerow">
-        <div class="col-lg-1"></div>
-        <div class="col-md-6 col-lg-7 text-center text-lg-left pt-0 pl-0 pl-lg-5">
-          <h1 class="h2 d-inline mr-lg-3 d-block d-md-inline mt-md-0 mt-5 pt-5">Hey There,I am</h1>
-          <h1 class="h1 font-weight-bold d-block d-md-inline" id="name">MUNEEB T</h1>
-          <h1 class="h2 font-weight-bold d-block text-danger">WEB DEVELOPER</h1>
+    <!--Services-->
+    <section id="services" class="mt-4">
+        <div class="container">
+            <h1 class="text-center">My Services</h1>
+            <p class="lead text-secondary d-flex justify-last">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor voluptatibus sint unde error suscipit minus nesciunt quis tenetur corporis necessitatibus aliquam, consequuntur repellat saepe sunt commodi odit. Ullam porro sed perferendis expedita iusto aspernatur impedit veniam blanditiis suscipit quos architecto, modi facilis incidunt explicabo deleniti est! Asperiores dolore odit dolorum corrupti nihil ducimus similique maiores minima quisquam perferendis sit, laboriosam illum magnam, sunt itaque, cum quaerat voluptatibus! Eum, illum. Cumque!</p>
+            <div class="row mt-5">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card h-100">
+                        <img src="images/Web Designing.jpg" alt="Web Designing" class="img-fluid card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title text-center">Web Designing</h2>
+                            <p class="lead text-secondary justify-last">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque beatae fugiat eveniet, itaque debitis, distinctio ratione alias omnis velit quae earumLaborum molestiae Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card h-100">
+                        <img src="images/web developement.jpg" alt="Web Designing" class="img-fluid card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title text-center">Web Developement</h2>
+                            <p class="lead text-secondary justify-last">Rerum suscipit, natus numquam similique dolorem quibusdam at unde reiciendis excepturi repudiandae inventore soluta consequuntur nam recusandae eligendi nesciunt?.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card h-100">
+                        <img src="images/Photoshop.jpg" alt="Web Designing" class="img-fluid card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title text-center">Photoshop Works</h2>
+                            <p class="lead text-secondary justify-last">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque beatae fugiat eveniet, itaque debitis, distinctio ratione alias omnis velit quae earum accusantium officiis tenetur quo? Laborum molestiae deserunt laudantium consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card h-100">
+                        <img src="images/VIDEO EDITING.jpg" alt="Web Designing" class="img-fluid card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title text-center">Video Editing</h2>
+                            <p class="lead text-secondary justify-last">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque beatae fugiat eveniet, itaque debitis, distinctio ratione alias omnis velit quae earumLaborum molestiae Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card h-100">
+                        <img src="images/sound editing.jpg" alt="Web Designing" class="img-fluid card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title text-center">Sound Editing</h2>
+                            <p class="lead text-secondary justify-last">Rerum suscipit, natus numquam similique dolorem quibusdam at unde reiciendis excepturi repudiandae inventore soluta consequuntur nam recusandae eligendi nesciunt?.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card h-100">
+                        <img src="images/sound mixing.jpg" alt="Web Designing" class="img-fluid card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title text-center">Sound Mixing</h2>
+                            <p class="lead text-secondary justify-last">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque beatae fugiat eveniet, itaque debitis, distinctio ratione alias omnis velit quae earum accusantium officiis tenetur quo? Laborum molestiae deserunt laudantium consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-6 col-lg-4 text-center mt-3 ml-5 mr-5 ml-md-0 mr-md-0 p-md-5">
-          <img src="images/mnb.jpg" alt="" class="img-thumbnail rounded">
-        </div>
-      </div>
-    </div>
-  </section>
- 
- <section id="services">
-    <div class="container">
-      <div class="row border ml-3 mt-1 mr-3">
-        <div class="col-md-12 text-center p-3">
-          <h1 class="h1 p-1 bg-info text-white mb-3">SERVICES</h1>
-          <div class="row">
-            <div class="col-md-6 col-lg-4">
-              <div class="card bg-light mb-3">
-                <i class="far fa-edit fa-10x pt-4 text-danger"></i>
-                  <div class="card-body">
-                  <h5 class="card-title text-info">WEB DESIGNING</h5>
-                  <p class="card-text">User interface designing of webpages using Html, CSS, jquery, Bootstrap.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-              <div class="card bg-light mb-3">
-                <i class="fab fa-connectdevelop fa-10x pt-4 text-danger"></i>
-                  <div class="card-body">
-                  <h5 class="card-title text-info">WEB DEVOLEPMENT</h5>
-                  <p class="card-text">Back-end programming of webpages using Node.js, Mongo DB.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-              <div class="card bg-light mb-3">
-                <i class="far fa-file-image fa-10x pt-4 text-danger"></i>
-                  <div class="card-body">
-                  <h5 class="card-title text-info">PHOTOSHOP</h5>
-                  <p class="card-text">Digital Image Editing using latest Adobe Photoshop CC.</p>
-                </div>
-              </div>
-            </div>
-         
-            <div class="col-md-6 col-lg-4">
-              <div class="card bg-light mb-3 mb-md-0">
-                <i class="fas fa-file-video fa-10x pt-4 text-danger"></i>
-                  <div class="card-body">
-                  <h5 class="card-title text-info">VIDEO EDITING</h5>
-                  <p class="card-text">Digital Video editing using latest Adobe premiere pro CC.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-              <div class="card bg-light mb-3 mb-md-0">
-                <i class="fas fa-headphones-alt fa-10x pt-4 text-danger"></i>
-                  <div class="card-body">
-                  <h5 class="card-title text-info">AUDIO EDITING</h5>
-                  <p class="card-text">Digital audio editing using Audacity and latest Adobe audition CC.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-              <div class="card bg-light mb-1 mb-md-0">
-                <i class="fas fa-music fa-10x pt-4 text-danger"></i>
-                  <div class="card-body">
-                  <h5 class="card-title text-info">SOUND MIXING</h5>
-                  <p class="card-text">Sound Designing and mixing for movies using latest Adobe audition CC.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-     </div>
-  </section>
-  <section id="education">
-    <div class="container">
-      <div class="row border ml-3 mr-3 mt-1">
-        <div class="col-md-12 text-center p-3">
-          <h1 class="h1 p-1 bg-info text-white mb-1">EDUCATION</h1>
-        </div>
-        <div class="col mb-3">
-          <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselIndicators" data-slide-to="2"></li>
-              <li data-target="#carouselIndicators" data-slide-to="3"></li>
-            </ol>
-            <div class="carousel-inner border-rounded">
-              <div class="carousel-item active">
-                <img class="d-block w-100 rounded" src="images/MMS HS.jpg" alt="First slide">
-                <div class="carousel-caption shade">
-                 
-                  <p class="h3">PRIMARY EDUCATION</p>
-                  <p class="h5">MMS EDUCATIONAL CAMPUS - KOLAPPARAMBA</p>
-                  <p class="h6">(SCERT Syllubus - Government of Kerala)</p>
-                  
-                </div>
-              </div>
-              <div class="carousel-item border-rounded">
-                <img class="d-block w-100 rounded" src="images/manar.jpg" alt="Second slide">
-                <div class="carousel-caption shade">
-                  <p class="h3">SECONDARY EDUCATION</p>
-                  <p class="h5">MANAR IDEAL SECONDARY SCHOOL - KACHINIKKAD</p>
-                  <p class="h6">(SCERT Syllubus - Government of Kerala)</p>
-                </div>
-              </div>
-              <div class="carousel-item border-rounded">
-                <img class="d-block w-100 rounded" src="images/pallippuram.jpg" alt="Third slide">
-                <div class="carousel-caption shade">
-                  <p class="h3">HIGHER SECONDARY</p>
-                  <p class="h5">GHSS MANKADA-PALLIPPURAM<br>(COMPUTER SCIENCE)</p>
-                  <p class="h6">(DHSE - Government of Kerala)</p>
-                </div>
-              </div>
-              <div class="carousel-item border-rounded">
-                <img class="d-block w-100 rounded" src="images/mic.jpg" alt="Fourth slide">
-                <div class="carousel-caption shade">
-                  <p class="h3">GRADUATION</p>
-                  <p class="h5">MIC ARTS & SCIENCE COLLEGE - ATHANIKKAL</p>
-                  <p class="h6">(BSc.COMPUTER SCIENCE - University Of Calicut)</p>
-                </div>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="contact">
-   <div class="container">
-    <div class="row border ml-3 mr-3 mt-1 p-1">
-      <div class="col-md-12 p-3">
-        <h1 class="h1 p-1 bg-info text-center text-white mb-4">Contact Me</h1>
-        <div class="col">
-          <form>
-            <form>
-              <div class="form-group">
-                <label for="user-name">Name</label>
-                <input type="text" class="form-control" id="user-name" placeholder="Name" required>
-              </div>
-              <div class="form-group">
-                <label for="email">Email Address</label>
-                <input type="email" class="form-control" id="email" placeholder="example@gmail.com" required>
-              </div>
-              <div class="form-group">
-                <label for="message">Message</label>
-                <textarea class="form-control" id="message" rows="3" placeholder="Type your message here ..." required></textarea>
-              </div>
-              <button type="submit" class="btn btn-info">Send Message</button>
-            </form>
-          </form>
-        </div>
-      </div>
-   </div>
-   </section>
-   <section>
-     <div class="container">
-       <div class="row">
-         <div class="col">
-           <p class="text-center text-danger p-6">
-             Disclaimer : This is not my official website, This website made only for education purpose.
-           </p>
-         </div>
-       </div>
-     </div>
-   </section>
-   <footer class="bg-danger">
-    <div class="container">
-      <div class="row p-2 text-white text-left  align-items-center">
-       <div class="col-md-5 col-10 col-lg-5">
-        
-            
-            <p class="h6 d-block"><i class="fas fa-envelope pr-2"></i>muneebmnb17@gmail.com</p>
-             <p class="h6 d-block"><i class="fas fa-phone-alt pr-2"></i>9747497621 , 6238006955</p>
-       </div>
-      
-      
-      <div class="col-md-3 text-right text-md-center col-2 col-lg-2">
-        <a class="text-white text-decoration-none" href="https://www.facebook.com/profile.php?id=100070109924751" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
-        <a class="text-white text-decoration-none" href="https://www.instagram.com/muneeb_t_/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a>
-        <a class="text-white text-decoration-none" href="https://www.linkedin.com/in/muneeb-t-178732217/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-      </div>
-     </div>
+    </section>
     
+    <!--Education-->
+    <section id="education" class="mt-5">
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-lg-6 col-sm-12">
+                    <h5 class="text-secondary">Primary Education</h4>
+                    <h3>MMS Educational Campus</h3>
+                    <p class="lead text-secondary justify">I studied my 1st to 7th standard in MMS Educational Campus situated in Kolapparamba, my native place. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad repellendus omnis blanditiis laboriosam iste molestiae in repellat dignissimos autem iure, nobis est eaque earum beatae pariatur non ut odit minus vitae adipisci saepe. Nesciunt maiores asperiores excepturi quae necessitatibus laboriosam error tempore suscipit, porro vel, sunt quaerat. Eos, reprehenderit obcaecati.</p>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img src="images/MMS.jpg" alt="Web Designing" class="img-fluid rounded w-100">
+                </div>
+            </div>
+            <div class="row mt-5 flex-row-reverse">
+                <div class="col-lg-6 col-sm-12">
+                    <h5 class="text-secondary">Secondary Education</h4>
+                    <h3>Manar Ideal Secondary School</h3>
+                    <p class="lead text-secondary justify">I studied my high school classes in Manar Ideal secondary school (MISS) situated in Kachinikkad. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat id exercitationem quis amet dolor, assumenda blanditiis quos unde. Unde, accusantium animi! Ipsam incidunt illum magni animi, possimus perspiciatis accusantium inventore maiores natus nulla harum voluptatum beatae, ducimus voluptatibus distinctio reiciendis odit quae fugiat ea. Tempora reprehenderit minima itaque quis molestias?</p>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img src="images/manar.jpg" alt="Web Designing" class="img-fluid rounded w-100">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6 col-sm-12">
+                    <h5 class="text-secondary">Higher Secondary Education</h4>
+                    <h3>GHSS Mankada Pallippuram</h3>
+                    <p class="lead text-secondary justify">I completed +2 in Govt.Higher Secondary School Mankada-Pallippuram.I choose Computer Science for my Higher Secondary education. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, ullam earum. Quasi nisi iste maiores, asperiores modi facilis, culpa nulla, eos officiis voluptatum veniam. Sint officiis pariatur maxime nisi reiciendis voluptates laborum aperiam quidem facilis beatae. Quis facere beatae facilis doloremque minus maxime fugiat sapiente possimus quas veniam. Consectetur, impedit!</p>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img src="images/Pallippuram School.jpg" alt="Web Designing" class="img-fluid rounded w-100">
+                </div>
+            </div>
+            <div class="row mt-5 flex-row-reverse">
+                <div class="col-lg-6 col-sm-12">
+                    <h5 class="text-secondary">Graduation - BSc.Computer Science</h4>
+                    <h3>MIC Arts & Science College</h3>
+                    <p class="lead text-secondary justify">I completed my degree in BSc.Computer Science (Syllubus - University of Calicut) at MIC Arts & Science College. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia ad, blanditiis reprehenderit, obcaecati, corporis eius sit provident rem accusantium doloremque facilis cumque veritatis aliquam repellendus suscipit dolorum odit pariatur. Id sequi, sed doloremque pariatur dicta obcaecati eos maiores mollitia reiciendis ipsam ex eligendi quod saepe officiis iusto voluptatibus eius laboriosam.</p>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img src="images/MIC.jpg" alt="Web Designing" class="img-fluid rounded w-100">
+                </div>
+            </div>
         </div>
-    <div class="container">
-     <div class="row bg-dark align-items-center">
-      <div class="col text-center">
-        <p class="h6 text-secondary p-1"><i class="far fa-copyright mr-2"></i>Copyright 2021 All rights Reserved.Powered by Muneeb T</p>
-      </div>
-     </div>
-    </div>
-   </footer>
+    </section>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="script.js" ></script>
-  </body>
+    <!--Contact-->
+    <section id="contact" class="mt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-6">
+                    <h1 class="text-primary">How Can I Help You ?</h1>
+                    <p class="lead text-secondary justify">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, commodi, eaque harum molestias cum ea doloremque aut magni deserunt eum ullam neque! In ipsam unde quia suscipit optio earum iste id eum laboriosam, dolores autem esse fugiat labore commodi consequatur alias eveniet nulla adipisci incidunt blanditiis nisi molestiae illo praesentium.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <form>
+                        <div class="card p-3">
+                            <h2 class="card-title text-center text-primary">Contact Me</h2>
+                            <div class="mb-4">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input class="form-control" type="email" name="email" id="email" placeholder="example@gmail.com">
+                            </div>
+                            <div class="mb-4">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" name="message" id="message" cols="15" rows="3" placeholder="Type Your Message here ..."></textarea>
+                            </div>
+                            <div class="mb-4 d-grid">
+                                <button class="btn btn-primary" type="submit">Send Me</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="bg-dark p-3">
+        <p class="text-center text-white">Copyright &copy; 2021 - All rights Reserved</p>
+    </footer>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
 </html>
